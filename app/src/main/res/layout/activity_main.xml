@@ -6,10 +6,11 @@
     android:background="@color/clBlue"
     tools:context="com.example.hoangcongtuan.loginfb.MainActivity">
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/image_facebook"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="@dimen/edt_margin_bottom"
         android:id="@+id/img_facebook"/>
@@ -19,7 +20,7 @@
         android:layout_below="@id/img_facebook"
         android:id="@+id/edtEmail"
         android:hint="@string/hint_email_pass"
-        android:background="@color/clWhite"
+        android:background="@drawable/edt_shape"
         android:padding="@dimen/text_padding"
         android:layout_marginLeft="@dimen/edt_margin_left"
         android:layout_marginRight="@dimen/edt_margin_right"
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/edtEmail"
         android:id="@+id/edtPass"
-        android:background="@color/clWhite"
+        android:background="@drawable/edt_shape"
         android:hint="@string/hint_pass"
         android:padding="@dimen/text_padding"
         android:layout_marginRight="@dimen/edt_margin_right"
@@ -47,7 +48,7 @@
         android:layout_marginTop="@dimen/edt_margin_top"
         android:text="@string/text_login"
         android:textColor="@color/clWhite"
-        android:background="@color/clBlueDark"
+        android:background="@drawable/btn_shape"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
         android:textAllCaps="false"/>
@@ -64,5 +65,15 @@
         android:textColor="@color/clWhite"
         android:textSize="@dimen/text_size_small"
         android:textStyle=""/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_help"
+        android:src="@android:drawable/ic_menu_help"
+        android:background="@drawable/help_shape"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
