@@ -11,4 +11,6 @@
 
     <dimen name="text_size_large">20sp</dimen>
     <dimen name="text_size_small">15sp</dimen>
+
+    <dimen name="layout_bottom_margin">15dp</dimen>
 </resources>
